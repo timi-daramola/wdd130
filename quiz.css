@@ -1,0 +1,51 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    height: auto;
+}
+
+form {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border-radius: 5px;
+    background-color: rgba(223, 217, 217, 0.897)
+
+}
+
+input, textarea, select {
+    width: 400px;
+    height: 30px;
+    display: block; 
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-left: 48px;
+    margin-top: 10px;
+    margin-bottom: -6px;
+}
+
+.code_snippet {
+    width: 300px;
+    height: 20px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#button {
+    width: 400px;
+    height: 40px;
+    display: block; 
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 4px blue solid;
+    background-color: blue;
+}

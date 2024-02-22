@@ -164,7 +164,7 @@ figure {
     max-width: 220px;
     max-height: 150px;
   }
-
+  
   figcaption {
     background-color: #222;
     color: #fff;
@@ -174,4 +174,48 @@ figure {
   }
   
   
-  
+.map {
+    padding-top: 30px;
+}
+
+.map p {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.user_form {
+    display: flex;
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 50px;
+    background-color: rgb(231, 228, 228);
+    margin-bottom: 50px;
+}
+
+.team {
+    margin: auto;
+}
+
+.container{
+    margin-left: 40px;
+}
+
+
+#fullName, #email, textarea {
+    display: flex;
+    width: 400px;
+    padding: 5px;
+}
+
+.btn {
+    width: 410px;
+    height: 40px;
+    color: #fff;
+    border: 2px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: green;
+}
